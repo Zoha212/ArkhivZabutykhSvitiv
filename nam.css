@@ -1,0 +1,135 @@
+body.dream-world {
+  cursor: url("https://i.postimg.cc/BQNYfFTp/wand.png"), auto;
+  background: url('https://cdn.leonardo.ai/users/cac5392f-1c00-4677-93e4-6bc45d065658/generations/3c72f0bd-00d3-4bd0-8b64-974df88e161e/segments/3:4:1/Flux_Dev_In_the_World_of_Intentions_a_realm_where_thoughts_man_2.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+}
+
+.dream-description {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.dream-image {
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #ffd;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+footer{
+  background-color:black;
+}
+header{
+  font-family: Georgia, sans-serif;
+  color:;
+}
+
+.quiz-container {
+    background-color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    display: none;
+}
+
+form:valid .result {
+    display: block;
+}
+p, a{
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+h1::first-letter{
+  color:lightblue;
+  font-size:40px;
+   font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+.back-button:hover {
+  background-color:#5E5D5D ;
+  color: #BABABA;
+  border-color:#5E5D5D;
+  opacity:1; 
+  transition: background-color 0.5s; 
+  transition: scale 0.5s;
+  box-shadow: 0 0 15px 5px lightblue;
+  scale:1.1;
+}
+h1, p{
+  text-shadow: 40px 2px 5px rgba(71, 131, 123, 1);
+}

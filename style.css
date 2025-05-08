@@ -1,0 +1,127 @@
+body {
+    cursor: url("https://i.postimg.cc/BQNYfFTp/wand.png"), auto;
+  margin: 0;
+  font-family: Georgia, sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('https://cdn.pixabay.com/photo/2023/11/14/19/21/ai-generated-8388362_1280.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #222;
+  opacity:0.7;
+}
+
+h1 {
+  font-optical-sizing: auto;
+  font-weight:<weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+  color:yellow;
+}
+
+.portal-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.portal {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 50%;
+  opacity:0.6;
+  
+}
+
+.portal:hover {
+  background-color: green;
+  color: yellow;
+  border-color:yellow;
+  opacity:1; 
+  transition: background-color 0.5s; 
+  transition: scale 0.5s;
+  box-shadow: 0 0 15px 5px lightblue;
+  scale:1.1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  font-size: 13px;
+}
+.navedi{
+  opacity:1;
+}
+.navedi:hover{
+  opacity:1;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmIXtMn8Z03B1rxEvBqwmqQfXpjN15M7u-bk1Ko7CYcwzBcPYIvf3GrRChVuGrl8bA1I&usqp=CAU'); 
+   
+}
+.navedi{
+  font-family:Georgia, sans-serif;
+  width: 800px;
+  height: 200px;
+  
+}
+p, a{
+  font-family: "Shantell Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+h1::after{
+  content:" 🔒";
+}
+.derevo{
+   margin: 0 auto;
+}
+.hand{
+animation:bounce 1s ease infinite;
+}
+@keyframes bounce {
+
+0% { transform: rotate(0deg); }
+
+50% { transform: rotate(25deg);}
+
+100% { transform: rotate(0deg);}
+}
+h1::first-letter{
+  color:green;
+  font-size:50px;
+   font-family: "Shantell Sans", cursive !important;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "BNCE" 0,
+    "INFM" 0,
+    "SPAC" 0;
+}
+
+h1, p{
+  text-shadow: 40px 2px 5px rgba(71, 131, 123, 1);
+}
+
