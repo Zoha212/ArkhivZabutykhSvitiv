@@ -7,6 +7,8 @@ body {
   background-image: url('https://cdn.pixabay.com/photo/2023/11/14/19/21/ai-generated-8388362_1280.jpg'); 
   background-repeat: no-repeat;
   background-position: center;
+    width:auto;
+    height:auto;
 }
 
 header {
